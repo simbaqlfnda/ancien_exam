@@ -1,0 +1,9 @@
+### INFO ON VARIABLES : https://github.com/Huachao/vscode-restclient
+@baseUrl = http://localhost:3000/api
+### Create the user james
+POST {{baseUrl}}/voeux/
+Content-Type: application/json
+
+{
+    "voeu":"Le génie ne t'accorde pas de voeu !"
+}

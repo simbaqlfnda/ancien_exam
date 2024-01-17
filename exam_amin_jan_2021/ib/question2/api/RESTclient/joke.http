@@ -1,0 +1,13 @@
+### Get all jokes
+GET http://localhost:3000/joke/
+
+### Add a data
+POST http://localhost:3000/joke/
+Content-Type: application/json
+
+{
+    "content":"C'est marrant tiens"
+}
+
+### Get one joke by chance
+GET http://localhost:3000/joke/chance/

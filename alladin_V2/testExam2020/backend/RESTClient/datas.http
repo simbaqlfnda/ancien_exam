@@ -1,0 +1,10 @@
+### get phrase with difficult
+GET http://localhost:3000/data/1
+
+###change de content
+PUT http://localhost:3000/data/1
+Content-Type: application/json
+
+{
+    "content":"Le genie est un con"
+}
